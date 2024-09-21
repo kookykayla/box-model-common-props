@@ -434,8 +434,11 @@ footer{
         - add the small filter drop shadow from the CSS variables in the root
 */
 #section3 img{
-    
-    
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: var(--filter-shadow-sm);
 }
 
 #section3 div::before{
@@ -477,6 +480,7 @@ footer{
         - move this to the right from its original location by 25px
 */
 #section3 div::after{
+
 }
 
 
